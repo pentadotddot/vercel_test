@@ -5,8 +5,8 @@ export default NextAuth({
   // Configure one or more authentication providers
   providers: [
     DiscordProvider({
-      clientId: "938953227410481252",
-      clientSecret: "3TMK3xJ14kS08Fw3KpQ3Yz-5lsLlrI8f",
+      clientId: process.env.DISCORD_CLIENT_ID,
+      clientSecret: process.env.DISCORD_CLIENT_SECRET,
       authorization: { params: { scope: 'identify guilds' }}, 
     }),
     // ...add more providers here
