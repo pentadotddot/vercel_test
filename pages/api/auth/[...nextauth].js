@@ -7,7 +7,6 @@ export default NextAuth({
     DiscordProvider({
       clientId: process.env.NEXT_PUBLIC_DISCORD_CLIENT_ID,
       clientSecret: process.env.NEXT_PUBLIC_DISCORD_CLIENT_SECRET,
-      redirect_uri: process.env.NEXTAUTH_URL,
       authorization: { params: { scope: 'identify guilds' }}, 
     }),
     // ...add more providers here
