@@ -69,13 +69,13 @@ export default function Login() {
         
 
 
-            signIn('discord',{callbackUrl : "http://localhost:3000/dashboard"})           
+            signIn('discord',{callbackUrl : "https://vercel-test2-rho.vercel.app/dashboard"})           
         }
         else{
           return(
  
             
-            router.push("http://localhost:3000/buynftpage")      
+            router.push("https://vercel-test2-rho.vercel.app/buynftpage")      
               
           )
 
@@ -85,7 +85,7 @@ export default function Login() {
       }
 
       if(user && user.get("numberofMGs")>=1){
-        signIn('discord',{callbackUrl : "http://localhost:3000/dashboard"})
+        signIn('discord',{callbackUrl : "https://vercel-test2-rho.vercel.app/dashboard"})
 
       }
 
