@@ -4,7 +4,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    background-image:url('../components/animated/AREA51.gif');
+    background-image:url('/static/AREA51.gif');
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@
     display: grid;
     align-items: center;
     justify-content: left;
-    background-image:url('../components/animated/abovemajestic_black.gif');
+    background-image:url('/static/abovemajestic_black.gif');
     
     border-radius: 20px;
     background-size: 100%;
@@ -87,7 +87,7 @@
 .abvmjstc_bungallow{
 
     background-color: rgb(0, 0, 0);
-    background-image:url('../components/images/bungallow.jpg');
+    background-image:url('/static/bungallow.jpg');
     border-radius: 20px;
     background-size: 100%;
     background-repeat:no-repeat;
