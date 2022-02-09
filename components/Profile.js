@@ -1,8 +1,5 @@
 import {Text, Image, Box, StylesProvider} from "@chakra-ui/react"
 import CustomContainer from "./CustomContainer"
-import { useMoralisQuery } from "react-moralis"
-import {useMoralis} from 'react-moralis'
-import above_majestic_anim from "./animated/abovemajestic_black.gif";
 import styles from "../styles/Login.module.css";
 
 

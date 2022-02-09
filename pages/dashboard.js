@@ -1,15 +1,11 @@
 import styles from "../styles/Dashboard.module.css";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useMoralis } from "react-moralis";
-import Login from "../components/Login";
-import { isInAmpMode } from "next/amp";
 import { useRouter } from "next/router";
-import Head from "next/head";
 import { Box, Button, Flex, TabList, Tabs, Text, Tab, TabPanels, TabPanel } from "@chakra-ui/react";
 import Header from "../components/Header";
 import Profile from "../components/Profile";
 import NFT from "../components/NFT";
-import { Link } from "@chakra-ui/react";
 import Bungallow from "../components/Bungallow";
 
 

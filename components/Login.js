@@ -1,17 +1,11 @@
 import styles from "../styles/Login.module.css";
 import Image from "next/image";
-import icon from "./images/HEADER.svg";
-import coming_soon from "./images/COMING_SOON.svg";
 import animated_logo from "./animated/MetaGreysAnimatedLogoMatrix.gif";
 import mm_logo from "./images/MetaMask_Fox.svg";
 import { useMoralis } from "react-moralis";
 import { useSession, signIn, signOut } from "next-auth/react";
-import { Router } from "next/router";
 import { useRouter } from 'next/router'
-import dashboard from "../pages/dashboard";
-import { Flex, Box, Text, Button, Link, AspectRatio } from "@chakra-ui/react";
-import Header from "./Header";
-import buyNFTpage from "../pages/buynftpage";
+
 
 
 export default function Login() {
