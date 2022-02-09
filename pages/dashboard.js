@@ -26,7 +26,7 @@ export default function dashboard() {
 
     }
 
-    function renderdash(){
+    function Renderdash(){
         const { data: session } = useSession();
         const {isAuthenticated, logout, user, setUserData} = useMoralis();
         if(session && isAuthenticated){
@@ -110,6 +110,6 @@ export default function dashboard() {
     
     }
 
-    return renderdash();
+    return Renderdash();
 
 }
