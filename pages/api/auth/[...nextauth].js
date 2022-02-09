@@ -11,6 +11,10 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
+  secret: process.env.SECRET,
+  pages: {
+     signIn: "/api/auth/callback/discord",
+  },
 
   callbacks: {
     jwt: async ({ token, user }) => {
