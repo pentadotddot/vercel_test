@@ -69,13 +69,13 @@ export default function Login() {
         
 
 
-            signIn('discord',{callbackUrl : process.env.NEXTAUTH_URL+"/dashboard"})           
+            signIn('discord',{callbackUrl : "/dashboard"})           
         }
         else{
           return(
  
             
-            router.push(process.env.NEXTAUTH_URL+"/buynftpage")      
+            router.push("/buynftpage")      
               
           )
 
@@ -85,7 +85,7 @@ export default function Login() {
       }
 
       if(user && user.get("numberofMGs")>=1){
-        signIn('discord',{callbackUrl : process.env.NEXTAUTH_URL+"/dashboard"})
+        signIn('discord',{callbackUrl : "/dashboard"})
 
       }
 

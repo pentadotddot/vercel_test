@@ -15,8 +15,8 @@ export default function Header() {
         if(session){
             if(isAuthenticated){
                 logout();
-                signOut({callbackUrl : process.env.NEXTAUTH_URL});      
-                router.push(process.env.NEXTAUTH_URL);  
+                signOut({callbackUrl : "/"});      
+                router.push("/");  
 
             }
         }
