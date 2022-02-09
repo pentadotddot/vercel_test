@@ -3,8 +3,9 @@ import { Flex, Box, Text, Button, Link } from "@chakra-ui/react";
 import { useRouter } from 'next/router'
 
 export default function buyNFTpage() {
-    const router = useRouter();
+    
     function gobackhome(){
+        const router = useRouter();
 
         router.push("http://localhost:3000")
     }
