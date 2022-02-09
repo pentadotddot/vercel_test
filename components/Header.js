@@ -15,8 +15,8 @@ export default function Header() {
         if(session){
             if(isAuthenticated){
                 logout();
-                signOut({callbackUrl : "http://localhost:3000"});      
-                router.push("http://localhost:3000");  
+                signOut({callbackUrl : "https://vercel-test-3-7noqycyjx-pentadotddot.vercel.app/"});      
+                router.push("https://vercel-test-3-7noqycyjx-pentadotddot.vercel.app/");  
 
             }
         }
