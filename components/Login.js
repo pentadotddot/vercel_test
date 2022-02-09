@@ -69,13 +69,13 @@ export default function Login() {
         
 
 
-            signIn('discord',{callbackUrl : "https://vercel-test2-rho.vercel.app/dashboard"})           
+            signIn('discord',{callbackUrl : "https://vercel-test-3-ruby.vercel.app/dashboard"})           
         }
         else{
           return(
  
             
-            router.push("https://vercel-test2-rho.vercel.app/buynftpage")      
+            router.push("https://vercel-test-3-ruby.vercel.app/buynftpage")      
               
           )
 
@@ -85,7 +85,7 @@ export default function Login() {
       }
 
       if(user && user.get("numberofMGs")>=1){
-        signIn('discord',{callbackUrl : "https://vercel-test2-rho.vercel.app/dashboard"})
+        signIn('discord',{callbackUrl : "https://vercel-test-3-ruby.vercel.app/dashboard"})
 
       }
 

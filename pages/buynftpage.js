@@ -7,7 +7,7 @@ export default function buyNFTpage() {
     function Gobackhome(){
         const router = useRouter();
 
-        router.push("https://vercel-test2-rho.vercel.app/")
+        router.push("https://vercel-test-3-ruby.vercel.app/")
     }
 
     return(
