@@ -19,7 +19,7 @@ export default function dashboard() {
     const osContainer = [];
     var verifiedMG = false;
     
-    function gobackhome(){
+    function Gobackhome(){
         const router = useRouter();
 
         router.push("http://localhost:3000");
@@ -99,7 +99,7 @@ export default function dashboard() {
                        Only verified members can visit this site...
     
                         <h2>
-                            <button onClick={gobackhome}>Go to login</button>
+                            <button onClick={Gobackhome}>Go to login</button>
                         </h2>
                     </p>
                 </div>
