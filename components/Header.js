@@ -15,8 +15,8 @@ export default function Header() {
         if(session){
             if(isAuthenticated){
                 logout();
-                signOut({callbackUrl : "https://vercel-test-3-7noqycyjx-pentadotddot.vercel.app/"});      
-                router.push("https://vercel-test-3-7noqycyjx-pentadotddot.vercel.app/");  
+                signOut({callbackUrl : process.env.NEXTAUTH_URL});      
+                router.push(process.env.NEXTAUTH_URL);  
 
             }
         }

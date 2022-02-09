@@ -7,7 +7,7 @@ export default function buyNFTpage() {
     function Gobackhome(){
         const router = useRouter();
 
-        router.push("https://vercel-test-3-7noqycyjx-pentadotddot.vercel.app/")
+        router.push(process.env.NEXTAUTH_URL)
     }
 
     return(
