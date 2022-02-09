@@ -18,7 +18,7 @@ export default function dashboard() {
     function Gobackhome(){
         const router = useRouter();
 
-        router.push("http://localhost:3000");
+        router.push("https://vercel-test2-rho.vercel.app/");
 
     }
 
