@@ -7,7 +7,7 @@ export default function buyNFTpage() {
     function Gobackhome(){
         const router = useRouter();
 
-        router.push(process.env.NEXTAUTH_URL)
+        router.push("/")
     }
 
     return(
