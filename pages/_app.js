@@ -12,8 +12,8 @@ export default function MyApp({
   return( 
     <ChakraProvider>
       <MoralisProvider 
-          appId={process.env.MORALIS_appId}
-          serverUrl={process.env.MORALIS_server_url}
+          appId="W0zPQtM861mHT4sZ3BVF7sOxBrlqNbm1KUk2RSTm"
+          serverUrl="https://7lpqbunv4qcl.usemoralis.com:2053/server"
           >
             <SessionProvider session={session}>
 
